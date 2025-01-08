@@ -39,7 +39,7 @@ navigate("/")
     try {
       const t =localStorage.getItem('users')
       console.log(t)
-      if(!t){
+      if(!t||t==="{}"){
       navigate("/login")}
       else{
         navigate("/")
@@ -48,9 +48,9 @@ navigate("/")
       console.log(error)
     }
    }
-// useEffect(()=>{
-//   checkuser()
-// },[])
+ useEffect(()=>{
+   checkuser()
+ },[])
 useEffect(()=>{
   document.body.className="bg-cover bg-center  bg-no-repeat h-screen"
   document.body.style.backgroundImage=`url(${bg})`
