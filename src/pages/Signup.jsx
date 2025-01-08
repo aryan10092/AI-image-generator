@@ -36,7 +36,7 @@ navigate('/')
     try {
       const t =localStorage.getItem('users')
       console.log(t)
-      if(!t){
+      if(!t||t==="{}"){
       navigate("/signup")}
       else{
         navigate("/")
