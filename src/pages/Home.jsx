@@ -25,7 +25,7 @@ function Home() {
 
   const imagegenerator=async()=>{
     const t=localStorage.getItem('users')
-    if(!t||t==="{)"{
+    if(!t||t==="{}"){
       toast.error("Please login first")
       navigate("/login")
       
