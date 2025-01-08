@@ -7,7 +7,7 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 // dotenv.config()
 const api = import.meta.env.VITE_API;
-console.log(api)
+//console.log(api)
 function Home() {
   useEffect(()=>{
     document.body.className="bg-[#0f1b21] bg-cover"
@@ -36,7 +36,7 @@ function Home() {
     }
     setloading(true)
     try{
-      console.log(api)
+     // console.log(api)
     const response=await fetch(
       "https://api.openai.com/v1/images/generations",
       {
