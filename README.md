@@ -5,7 +5,7 @@ This is a web application that allows users to log in, sign up, and generate AI-
 
 ## Demo
 
-You can check out the demo of the application here: [AI Image Generator Demo]([https://ai-image-generator-d01x.onrender.com]) 
+You can check out the demo of the application here: [AI Image Generator Demo](https://ai-image-generator-d01x.onrender.com) 
 
 ## Features
 
